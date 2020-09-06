@@ -1,19 +1,141 @@
-body{
-  background-color: #EAF6F6;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
+
+span {
+  text-decoration: underline;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
 hr{
   background-color: #EAF6F6;
   border-style: dotted none none;
   border-color: gray;
-  border-width: 5px;
+  border-width: 8px;
   height: 0px;
   width: 5%;
 }
-h3{
-  color: #ff4b5c;
-  font-variant: small-caps;
+
+.profile-pic{
+  width: 30%;
 }
-h1{
-  color: #056674;
-  font-variant: small-caps;
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.heading_too {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {}
+
+.bottom-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #66BFBF;
+  line-height: 2;
+}
+
+.footer-link{
+  text-decoration: none;
+  padding: 20px;
+  color: #11999E;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: 900;
+}
+
+.credit{
+  margin-bottom: 0;
+  color: white;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.www-pic {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.java-pic {
+  width: 25%;
+  float: right;
+}
+
+.gif{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.contact-btn{
+  display: inline-block;
+  background-color: #66BFBF;
+  text-decoration: none;
+  height:20%;
+  padding: 10px 15px 10px 15px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  border-radius: 6px;
+  margin-bottom: 2%;
+}
+
+.btn{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-btn:hover{
+  background-color: #2ec1ac;
+}
+
+.footer-link:hover{
+  color:#EAF6F6;
 }
